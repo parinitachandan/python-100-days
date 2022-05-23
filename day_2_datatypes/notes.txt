@@ -1,0 +1,42 @@
+Types of Data types
+    - String
+    - Integer
+    - Float
+    - Boolean
+
+Subscript - pulling out a particular from a string
+Example
+     - print("Hello"[0])
+       output = H
+
+Integers -  programming lingo for whole numbers without decimals
+Examples
+    - 123 + 345
+    -123_345_567(python removes the underscore, it's just for humans to understand)
+
+Float - Short for floating point number
+          - decimals numbers
+Example - 3.11467 or 346.9099 or 0.001
+
+Boolean - Two possible values
+        - True or False
+
+Type Error - occurs when the data type of objects in an operation is inappropriate.
+Example -  len(456789)
+        error - len(456789)
+TypeError: object of type 'int' has no len()
+[len function doesn't work with integers; thus the code breaks and gives a type error]
+
+Mathematical Operators
+ + Addition
+ - Subtraction
+ * Multiplication ( the symbol used is known as asterix)
+ / Division ( forward slash)
+ ** exponents or to raise power
+
+f - String
+   - provides a way to embed expressions inside string literals, using a minimal syntax.
+   - doesn't have constant value
+
+
+
