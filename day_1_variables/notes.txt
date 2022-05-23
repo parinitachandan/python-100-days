@@ -1,0 +1,26 @@
+Strings - are texts
+Example
+  - print("Hello!"); Hello! is the string over here
+  - name = "James"; name is a string
+
+Syntax Highlighting : Any syntax errors are underlined with red (You also get tips to resolve errors)
+Example
+    - Incorrectly spelled variables.
+        - You can't use any operators in variable names (name-3 or name!4 or name$5)
+    - Incorrectly spelled statements.
+    - Missing punctuation (quotes, brackets, etc)
+
+
+String Concatenation - taking separate sting characters and merging them into one
+Example -  Input - print("This " + "is " + "an " + "example " + "of " + "combining " + "strings")
+           Output - This is an example of combining strings
+
+Indentation Error - error when space(indent) is given when not required
+Example - Input - 1   print("hi")
+          Error -   print("hi")
+                  ^
+IndentationError: unexpected indent
+
+len function
+    The len() function returns the number of items in an object.
+    When the object is a string, the len() function returns the number of characters in the string.
