@@ -1,0 +1,26 @@
+# Doubt - why is not operator used in python?
+
+Comparison Operators
+ >  - Greater Than
+ <  - Lesser Than
+ >= - Greater than or equal to
+ <= - Lesser than or equal to
+ == - Equal to
+ != - Not Equal to
+
+ # One Equal sign(=)   - means assigning value to a variable
+ # Two Equal signs(==) - checking if the value on left is equal to value of right
+
+
+ Logical Operators or Boolean operator
+ 1) and - when you combine two different conditions using an and operator, both the conditions have to be true;
+          if anyone condition is false, then the whole thing would be false.
+ 2) or - only need one of the condition to be true; if both are false, it executes false
+ 3) not - it reverses a condition; if the statement true, then it becomes false.
+
+ Lower function - changes all the letters in a string to lower case letter - .lower()
+
+ Count function - gives the no. of times a letter occurs in a string; case-sensitive
+
+
+
