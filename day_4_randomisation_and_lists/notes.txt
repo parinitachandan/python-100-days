@@ -1,0 +1,38 @@
+Python uses Mersenne Twister; It is a pseudorandom number generator
+Pseudorandom number generator - generates random numbers using an algorithm; also known as deterministic random bit generator
+# Random processes are nondeterministic; Machines are deterministic
+
+
+Random module - crated by python team to make it easy for generating random numbers without needing to get into the math to
+generate pseudorandom number
+
+Modules are simply files with the “. py” extension containing Python code that can be imported inside another Python Program
+# Example in _init_.py
+
+randint(a, b) - Returns a random integer between a and b (includes both a & b)
+
+random.random() - Returns the next random floating point number between [0.0 to 1.0](doesn't include 1;only till 1.999);
+ .random() function always generates float between 0 & 1;
+
+Lists - way of organising and storing data in python; stores grouped pieces of data; data types can contain mixed
+
+# variable - stores single piece of data
+
+append()  - adds a single item into the list
+extend()  - adds many pieces of data or items into a list that is already existing
+insert()  - inserts an item at a given position
+remove()  - removes an item from the list
+pop()     - removes an item at a given index
+reverse() - reverses the whole list
+clear()   - removes all the items from the list
+
+String.split() method - splits the string into a list
+
+random.shuffle() - shuffles the sequence[lists, tuples, etc.]
+random.choice()  - randomly pick up an item from a list/sequence
+
+Index error -  that means your code is trying to access an index that is invalid
+Example - fruits = ["Cherry", "Mango", "Orange", "Blackberry"] # Index only till 3
+print(fruits[4]) - gives an index error
+
+
