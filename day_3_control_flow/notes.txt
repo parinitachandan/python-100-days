@@ -24,3 +24,10 @@ Comparison Operators
 
 
 
+ += Adds value together and assigns final value to the variable.
+ -= Subtracts a value from the variable and assigns the result to that variable.
+ /= It divides the value from the variable and assigns the result to that variable.
+ *= It multiplies the value from the variable and assigns the result to that variable.
+
+
+
