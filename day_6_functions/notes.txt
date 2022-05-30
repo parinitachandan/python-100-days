@@ -1,0 +1,11 @@
+Function - A function is a block of code which only runs when it is called
+def function - used to define a function
+
+while loop - used to iterate over a block of code as long as the condition is true
+infinite loop - when the condition is always true
+example:
+         - while 5 > 3:
+              print("Hi")
+         - Hi
+           Hi
+           Hi ........................
