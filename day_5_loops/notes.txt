@@ -1,0 +1,5 @@
+# A loop allows us to execute the same line of code multiple times
+
+1) For Loop - A for loop is used for iterating(performing repeatedly) over a sequence
+
+range function -The range() function returns a sequence of numbers
