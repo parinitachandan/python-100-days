@@ -1,0 +1,39 @@
+Naming Conventions
+
+1) Naming a function
+- lower case characters
+- use underscore(_) instead of space
+
+2) Naming a variable
+- should start with an alphabet
+- it should only contain(A-Z, a-z, 0-9 and underscore); can't contain special characters like @!#$%^&*
+- it is case sensitive; for example str and Str are two different variables
+- can't use reserve keyword as a variable name for example keywords like class, for, def, del, is, else, try, from, etc
+- lower case other than constants
+
+3) Naming a file
+- short name
+- lower case
+- underscore(_) for space
+
+4) Naming a constant
+- should be capitalized always
+- should be separated by an underscore(_)
+
+5) Naming a package and module
+- lowercase
+- underscore(_) for space
+- better to use a single word for a package name
+
+6) General Naming Conventions
+- give meaningful names; don't use x,y,z,etc
+- use underscore when there is more than 1 word
+- better to use camelCase when only it makes sense
+[camelCase - Camel case is the practice of writing phrases without spaces or punctuation.
+              It indicates the separation of words with a single capitalized letter, and the first word starting with either case.
+              Common examples include "iPhone" and "eBay"]
+
+
+
+
+
