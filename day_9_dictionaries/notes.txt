@@ -1,0 +1,7 @@
+Dictionaries - are used to store data values in key:value pairs
+
+Key error - raised when you try to access an item in a dictionary that does not exist
+Example:
+        - print(programming_dictionary["Hi"])
+          KeyError: 'Hi'
+
