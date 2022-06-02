@@ -1,0 +1,8 @@
+Caesar cipher - ancient type of encryption
+
+Parameter - a variable listed inside the parentheses in the function definition
+Argument - is the value that is sent to the function when it is called
+
+Positional Argument - is an argument whose position matters in a function call
+
+Keyword Argument - values that, when passed into a function, are identifiable by specific parameter names
