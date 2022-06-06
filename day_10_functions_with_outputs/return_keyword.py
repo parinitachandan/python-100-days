@@ -44,7 +44,7 @@ def days_in_month(years, months):
     return month_days[month - 1]
 
 
-year = int(input("Enter a year: "))
-month = int(input("Enter a month: "))
-days = days_in_month(year, month)
-print(f"The year {year}, in the month {month} has so many {days} days")
+year_input = int(input("Enter a year: "))
+month_input = int(input("Enter a month: "))
+days = days_in_month(year_input, month_input)
+print(f"The year {year_input}, in the month {month_input} has so many {days} days")
