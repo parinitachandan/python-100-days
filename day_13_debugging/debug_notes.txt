@@ -1,0 +1,15 @@
+1) Describe the problem - understand the issue
+2) Reproduce the bug
+3) Run the program and Evaluate every line
+4) Fix errors
+5) Use Print/Log statements
+6) Using the debugger
+7) Development best practise
+    a) Write individual functional/logical pieces.
+    b) Run them to verify
+    c) Do necessary cleanup/refactoring
+        - Create functions for code reuse
+        - Remove unnecessary variables/initializations
+        - Check code flow for optimization
+        - Check code flow for proper logging
+    d) Do the final verification
