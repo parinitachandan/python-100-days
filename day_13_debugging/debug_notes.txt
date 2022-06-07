@@ -1,0 +1,7 @@
+1) Describe the problem - understand the issue
+2) Reproduce the bug
+3) Play computer and Evaluate every line
+4) Fix errors
+5) Use Print statements
+6) Using the debugger
+7) Run the code often
