@@ -1,0 +1,15 @@
+Scope - a variable is only available from inside the region it is created
+
+1) Local scope  - a variable created within the function; can't be accessed outside a function
+2) Global scope - a variable created within the main body of the python code; it can be accessed inside a function
+
+# Not a local scope - variables inside if statements, while loop , for loop
+
+
+
+Namespace - a way of providing the unique name for each object in python;
+            everything in python is an object, i.e., a variable or a function
+1) Local namespace - inside a function
+2) Global scope - inside the main body of python
+
+Global constants - variables whose value won't change
