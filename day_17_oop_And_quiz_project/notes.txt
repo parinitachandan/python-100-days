@@ -1,0 +1,5 @@
+pass keyword - pass is a null statement; it doesn't return anything
+
+attribute - a variable associated with an object
+
+__init__() - lets the class initialize the object's attributes
