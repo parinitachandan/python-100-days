@@ -1,0 +1,20 @@
+Object-Oriented Programming:
+        - Using OOP we can split a larger task into smaller pieces and each of those pieces can be worked
+          on by separate teams, separate people, and also each of those pieces become reusable if we need the same;
+        - Trying to model real life objects
+
+Class:
+     - A Class is like an object constructor, or a "blueprint" for creating objects.
+     - The first letter of each word is capitalized; known as pascal case; This is to differentiate it from all
+       the variable and function
+
+Object:
+     - An Object is an instance of a Class
+
+Attributes:
+       - A variable associated with a modeled object
+       - Things  objects have
+
+Methods:
+       - A function that a particular modeled object can do
+       - Things an object can do
