@@ -1,0 +1,12 @@
+open() method and it's modes
+1) read(r) - It is default, it allows python to read through the file
+2) write(w)  - allows to write in the file but erases the previous text written
+3) append(a) - adds text to the file
+
+
+Relative File Path -
+A relative file path is interpreted from your current working directory.
+
+
+Absolute File Path -
+An absolute file path describes how to access a given file or directory, starting from the root of the file system

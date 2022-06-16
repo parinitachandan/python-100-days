@@ -1,0 +1,5 @@
+Tuples - they are used to store multiple items in a single variable; they are similar to lists
+example - my_tuple = (1, 3, 8)
+
+Difference b/w tuples and lists
+you can't change the value of a tuple like a list
