@@ -15,6 +15,7 @@ Naming Conventions
 - short name
 - lower case
 - underscore(_) for space
+- Don't name a file with a package name
 
 4) Naming a constant
 - should be capitalized always

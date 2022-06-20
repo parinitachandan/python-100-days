@@ -1,0 +1,11 @@
+List Comprehensions:
+- offers a shorter syntax to create a new list based on the values of an existing list
+
+Python Sequence :
+- Examples : Lists, Range, Tuple, Strings
+- They have a specific order
+
+Dictionary Comprehensions :
+- offers a shorter syntax to create a new dictionary based on the values of an existing dictionary
+
+
