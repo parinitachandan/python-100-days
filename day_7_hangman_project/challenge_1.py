@@ -6,7 +6,7 @@ word_list = ["aardvark", "baboon", "camel"]
 
 chosen_word = random.choice(word_list)
 
-guess = input("Guess a letter : ").lower()
+guess = input("Guess a wish_letters : ").lower()
 
 for letter in chosen_word:
     if letter == guess:

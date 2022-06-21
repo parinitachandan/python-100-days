@@ -1,0 +1,3 @@
+SMTP - Simple Mail Transfer Protocol
+smtplib - can be used to send mail to any internet machine with an SMTP
+

@@ -16,7 +16,7 @@ for _ in range(word_length):
     display += "_"
 
 while not end_of_game:
-    guess = input("Guess a letter : ").lower()
+    guess = input("Guess a wish_letters : ").lower()
 
     for position in range(word_length):
         letter = chosen_word[position]

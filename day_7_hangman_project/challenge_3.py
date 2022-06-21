@@ -14,7 +14,7 @@ end_of_game = False
 lives = 6
 
 while not end_of_game:
-    guess = input("Guess a letter : ").lower()
+    guess = input("Guess a wish_letters : ").lower()
 
     for position in range(word_length):
         letter = chosen_word[position]
@@ -29,16 +29,16 @@ while not end_of_game:
     else:
 
         # while not end_of_game:
-        #     guess = input("Guess a letter: ").lower()
+        #     guess = input("Guess a wish_letters: ").lower()
         #
-        #     # Check guessed letter
+        #     # Check guessed wish_letters
         #     for position in range(word_length):
-        #         letter = chosen_word[position]
-        #         # print(f"Current position: {position}\n Current letter: {letter}\n Guessed letter: {guess}")
-        #         if letter == guess:
-        #             display[position] = letter
+        #         wish_letters = chosen_word[position]
+        #         # print(f"Current position: {position}\n Current wish_letters: {wish_letters}\n Guessed wish_letters: {guess}")
+        #         if wish_letters == guess:
+        #             display[position] = wish_letters
 
-        # TODO-2: - If guess is not a letter in the chosen_word,
+        # TODO-2: - If guess is not a wish_letters in the chosen_word,
         # Then reduce 'lives' by 1.
         # If lives goes down to 0 then the game should stop and it should print "You lose."
         if guess not in chosen_word:
