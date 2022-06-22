@@ -1,0 +1,10 @@
+Slice function:
+- function returns a slice object
+- a slice object is used to specify how to slice a sequence. You can specify where to start the slicing,
+  and where to end
+
+OpenWeather API:
+- https://home.openweathermap.org
+
+Twilio API:
+- https://www.twilio.com/try-twilio
