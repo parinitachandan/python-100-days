@@ -1,0 +1,40 @@
+API:
+- Application Programming Interface
+- it is a set of commands, functions, protocols and objects that programmers can use to create software
+  or interact with an external system
+
+JSON Data:
+- it is a syntax for storing and exchanging data
+- standard way for transferring data over the internet
+- originally created for Javascript
+- In-built in python
+
+Client Error:
+- the request contains bad syntax or cannot be fulfilled
+
+Server Error:
+- the server failed to fulfil an apparently valid request
+
+HTTP:
+- HyperText Transfer Protocol
+- designed for communication between web browsers and web servers
+- protocol for transmitting hypermedia documents, such as HTML
+
+HTTP Codes:
+1) 1XX - Informational
+2) 2XX - Success
+3) 3XX - Redirection
+4) 4XX - Client Error
+5) 5XX - Server Error
+
+Request Module:
+1) status_code - returns the HTTP code
+2) raise_for_status - raises the error
+3) url - returns the url used
+4) json - returns the data in json format
+
+split() method:
+- splits a string into a list where each word is an item inside a list
+
+
+
