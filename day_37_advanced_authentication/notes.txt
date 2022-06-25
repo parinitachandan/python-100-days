@@ -1,0 +1,27 @@
+Requests Module:
+- this module allows you to send HTTP requests using python
+- the HTTP request returns a response object with all the response data (content, encoding, status, etc)
+
+Requests Methods
+1) Get:
+- sends a GET request to the specified url
+- returns the data from the external service
+- requests.get()
+
+2) Post:
+- sends a POST request to the specified url
+- post a piece data into the external service
+- requests.post()
+
+3) Put:
+- sends a PUT request to the specified url
+- updates a piece data into the external service
+- requests.put()
+
+4) Delete:
+- sends a DELETE request to the specified url
+- deletes a piece data from the external service
+- requests.delete()
+
+
+
