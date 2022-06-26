@@ -2,11 +2,13 @@ import requests
 import os
 from twilio.rest import Client
 
-api_key = ""
+api_key = os.getenv('OW_API_KEY')
 weather = "https://api.openweathermap.org/data/2.5/onecall"
 
-account_sid = ''
-auth_token = ''
+
+
+account_sid = os.getenv('ACCOUNT_SID')
+auth_token = os.getenv('AUTH_TOKEN')
 
 my_lat = 12.971599
 my_lon = 77.594566
@@ -33,13 +35,14 @@ for hour_data in hourly_report:
     if int(report_code) < 700:
         will_rain = True
 
+
 if will_rain:
     client = Client(account_sid, auth_token)
 
     message = client.messages \
         .create(
         body="It's going to rain today.Remember your umbrella☂️.",
-        from_='',
+        from_= os.getenv('TWILIO_NUMBER'),
         to=''
     )
 

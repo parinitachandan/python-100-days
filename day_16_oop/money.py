@@ -16,12 +16,19 @@ class MoneyMachine:
 
     def process_coins(self):
         """Returns the total calculated from coins inserted."""
-        self.money_received += int(input("Please pay for your drink: "))
-        return self.money_received
+        money_received = input("Please pay for your drink: ")
+        if money_received.isnumeric():
+            self.money_received += int(money_received)
+            return self.money_received
+        else:
+            return False
 
     def make_payment(self, cost):
         """Returns True when payment is accepted, or False if insufficient."""
-        self.process_coins()
+        money_received = self.process_coins()
+        while not money_received:
+            money_received = self.process_coins()
+
         if self.money_received >= cost:
             change = round(self.money_received - cost, 2)
             print(f"Here is {self.CURRENCY}{change} in change.")

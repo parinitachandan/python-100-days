@@ -2,8 +2,9 @@ import requests
 import smtplib
 
 
+
 my_email = "pcparinita@gmail.com"
-password = ""
+password = ('')
 
 MY_LAT = 12.971599
 MY_LONG = 77.594566
