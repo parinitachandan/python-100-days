@@ -12,7 +12,7 @@ today_date = (today.month, today.day)
 
 
 data = pandas.read_csv("birthday.csv")
-birthday_dict = {(data_row["month"], data_row["day"]): data_row for (index, data_row) in data.iterrows()}
+birthday_dict = {(data_row["month"], data_row["day_42_ intermediate_html"]): data_row for (index, data_row) in data.iterrows()}
 
 if today_date in birthday_dict:
     birthday_person = birthday_dict[today_date]

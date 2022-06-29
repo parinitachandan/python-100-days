@@ -1,0 +1,27 @@
+1) Table
+- <table></table>
+- HTML tables allow web developers to arrange data into rows and columns
+a) Table Cells :
+>> Each table cell is defined by a <td> and a </td> tag
+b) Table Rows
+>> Each table row starts with a <tr> and end with a </tr> tag
+c) Table Headers
+>> cell headers
+>> <th></th>
+
+2) Style
+- The HTML style attribute is used to add styles to an element, such as color, font, size, and more
+- <style></style>
+
+3) Form element
+- <form></form>
+-  used to create an HTML form for user input
+a) The <input type="text"> defines a single-line input field for text input
+b) The <input type="radio"> defines a radio button
+c) The <input type="submit"> defines a button for submitting the form data to a form-handler
+d) The <input type="checkbox"> defines a checkbox
+
+4) Label element
+- defines a label for many form elements
+- <label></label>
+
