@@ -1,0 +1,132 @@
+The data you receive from a website usually consists of 3 types of data:
+1) HTML - responsible for the structure of the website
+2) CSS - responsible for styling the website (design)
+3) JavaScript - responsible for the functioning of the website
+
+
+HTML:
+- HyperText Markup Language
+- foundation of all the websites
+- Can specify the layout and structure of the website by using HTML tags
+
+1) Heading Tags:
+- <h1> to <h6>
+- <h1> - bigger size; <h6> - smaller size; the decreases as we go down from <h1>
+
+# <h1> - start tag; Hello - content; </h1> - end tag
+
+2) Line Break element:
+- <br>
+- self-closing tag
+- inserts a single line break
+- has starting tag but no ending tag
+
+
+3) Horizontal Rule element:
+- <hr>
+- has starting tag but no ending tag
+- creates horizontal lines
+- self-closing tag
+# <hr size="3">:  <hr - HTML element; size="3" - HTML attribute >
+---> Horizontal Rule attributes:
+a) align
+- sets the alignment of the rule on the page
+- if no value is specified, the default value is left
+b) color
+ - sets the color
+c) noshade
+- sets the rule of no shading
+d) size
+sets the height through a pixel
+e) width
+sets the length of the rule on the page through a pixel
+
+4) <center>
+- has starting tag and ending tag
+- aligns the text to center
+
+" # Boilerplate or co-template
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+     <title>
+
+     </title>
+  </head>
+  <body>
+
+  </body>
+</html>
+"
+
+5) <!DOCTYPE html>
+- declaring the document type
+- tells the browser the version of HTML being used
+
+6) HTML Tag
+- <html>
+- has starting tag and ending tag
+- tells the browser that everything in between the opening and closing tag is HTML code
+- consists of head and body
+
+7) head
+-  <head>
+- has starting tag and ending tag
+- holds information about the webpage and tells the browser how to handel it
+- consists of meta and title
+
+8) title
+- defines the document's title
+
+# Metadata - data that provides information about other data
+
+9) meta
+- represents metadata that cannot be represented by other HTML meta-related elements
+
+10) body
+- <body>
+- has starting tag and ending tag
+- contains the content of the website
+
+11) p element
+- <p>
+- paragraph tag
+- has starting tag and ending tag
+
+12) i element
+- <i></i>
+- italicise the text
+
+13) emphasize element
+- <em></em>
+- the content inside is displayed in italic
+
+14) b element
+- <b></b>
+- displays the content text in bold without any extra importance
+
+15) strong element
+- <strong></strong>
+- used to define text with strong importance
+- the content inside is displayed in bold
+
+16) ul element
+- <ul></ul>
+- an unordered (bulleted) list
+- should use the <ul> tag together with the <li> tag to create unordered lists
+
+17) ol element
+- <ol></ol>
+- an ordered (bulleted) list
+- should use the <ol> tag together with the <li> tag to create unordered lists
+
+18) img element
+- <img>
+- self-closing tag
+- used to embed an image in an HTML page
+>> scr - source of the image(url) [attribute]
+
+19) a tag
+- <a></a>
+- defines a hyperlink, which is used to link from one page to another
