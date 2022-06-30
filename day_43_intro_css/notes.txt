@@ -1,0 +1,22 @@
+CSS:
+- Cascading Style Sheet
+- Styles Markup languages such as HTML, XML
+
+ID:
+- the id attribute specifies a unique id for an HTML element
+- the value of the id attribute must be unique within the HTML document
+- can't have two or more IDs with the same name in a same page
+- use IDs when you want to apply a specific style to a single item
+- can't have more than one ID in a particular element
+
+Class:
+- The class attribute is often used to point to a class name in a style sheet
+- can have two or more classes with the same name in a same page
+- use classes when you want ot apply the same style to a group of related items
+- can have more than one classes in the same HTML element (example - foods: line - 15)
+
+Pseudo Class:
+- A pseudo-class is used to define a special state of an element
+- Examples:
+>> a:hover
+>> a:link

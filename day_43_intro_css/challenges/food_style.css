@@ -1,0 +1,34 @@
+/****************************Tag Selectors***************************/
+
+body {
+    background-color:#ECB390 ;
+}
+h1 {
+    color:#A13333;
+    font-size: 150px;
+}
+h3 {
+    color: #C74B50;
+}
+img:hover {
+    background-color: powderblue;
+}
+
+/****************************Class Selectors***************************/
+
+.pizza1 {
+    height: 300px;
+    background-color: aliceblue;
+}
+.pizza2 {
+    height: 400px;
+    background-color:black;
+}
+.circular {
+    border-radius: 100%;
+}
+
+/****************************ID Selectors***************************/
+#line3 {
+    color: #FFFFFF;
+}
