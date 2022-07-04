@@ -4,7 +4,7 @@ import smtplib
 import lxml
 
 EMAIL = "pcparinita@gmail.com"
-PASSWORD = "xhgieuswlcylkacz"
+PASSWORD = ""
 
 url = "https://www.amazon.com/dp/B09SBRW3B9/ref=syn_sd"
 header = {
