@@ -7,7 +7,7 @@ response = requests.get(URL)
 movies_webpage = response.text
 
 soup = BeautifulSoup(movies_webpage, "html.parser")
-all_movies = soup.find_all(name="h3", class_="title")
+all_movies = soup.select_one(name="h3", class_="title")
 
 
 movie_titles = [movie.getText() for movie in all_movies]
