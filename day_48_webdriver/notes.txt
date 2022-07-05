@@ -1,0 +1,2 @@
+.close() - closes a single tab
+. quit - closes the entire browser
