@@ -1,0 +1,30 @@
+Framework :
+- is a piece of code that dictates  the architecture of your project
+
+Flask :
+- One of the most popular web development frameworks
+
+
+
+Terminal :
+-  Also known as Command line or Shell
+- Powerful Tool
+- Way of typing in commands on eline at a time in order to control the computer
+
+Command lines:
+1) pwd -Print current working directory
+2) ls - lists all things in the current location
+3) cd - Change directory
+4)mkdir - Make directory (creates a new folder from scratch)
+5) touch - creates a file in the current directory
+6) rm - removes a file
+7) rm -rf -  recursively, forcibly, remove the folder (deletes everything in the folder)
+
+__name__ :
+- one of the special attributes that is built into python
+- evaluates to the name of the current module
+
+Python Decorator :
+- adds functionality to an existing code
+
+
