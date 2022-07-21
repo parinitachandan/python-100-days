@@ -1,0 +1,33 @@
+@media (max-width:900px){
+     h1 {
+         color: orange;
+         font-family: "Comic Sans MS";
+         font-size: 120px;
+     }
+}
+
+@media print{
+    h1 {
+        color: red;
+        font-size: 100px;
+        font-family: cursive;
+}
+}
+
+@media (min-width:800px){
+     h1 {
+         color: grey;
+         font-size: 80px;
+         font-family:Merriweather;
+     }
+}
+
+@media (min-width:900px) and (max-width: 1500px){
+     h1 {
+         color: #4e89ae;
+         font-size: 80px;
+         font-family: Chalkboard;
+     }
+}
+
+

@@ -1,0 +1,215 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+.coloured-section{
+     background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color:#fff;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+     padding:0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: Ubuntu;
+    font-size: 2rem;
+    font-weight:bold;
+}
+
+.nav-item {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.nav-link {
+    font-family: Open Sans;
+    font-size:1.2rem;
+    font-weight:bolder;
+}
+
+/* Download Buttons */
+
+.download-button {
+    margin:5% 3% 5% 0%;
+    font-family: Open Sans;
+    font-weight:bolder;
+}
+
+/* Title Section */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+    text-align: left;
+}
+.big-heading{
+    font-family:Montserrat;
+    font-size: 3rem;
+    line-height:1.5;
+}
+
+/* Title Image */
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+/* Features Section */
+
+#features {
+    padding: 7% 15%;
+    position: relative;
+    text-align: center;
+}
+
+.feature-box {
+    text-align: center;
+    padding:5%;
+}
+.feature-h3 {
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 10%;
+}
+
+.icon{
+    color:#ef8172;
+    margin-bottom:1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+p {
+    color: #8f8f8f;
+    font-family:Open Sans;
+    font-weight: bolder;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+}
+.testimonial-text {
+    font-family: Ubuntu;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius:100%;
+    margin: 20px;
+}
+
+.testimonial-name{
+    font-family: Ubuntu;
+    font-size: 1.5rem;
+}
+
+
+/* Press Section */
+#press {
+    background-color:#ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+.section-heading {
+    font-family: Ubuntu;
+    font-weight: bolder;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.section-text {
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.price-head {
+    font-family: Ubuntu;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.price-text {
+    font-family: Ubuntu;
+    font-size:1.5rem;
+    font-weight: bold;
+}
+
+.price-p {
+    color:#8f8f8f8f;
+    font-family: Ubuntu;
+    font-size: 1rem;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.signup-btn {
+    font-family: Ubuntu;
+}
+
+/* CTA Section */
+
+.cta-h3 {
+    font-family: Ubuntu;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+
+
+/* Footer Section */
+
+#footer {
+    text-align: center;
+}
+
+.social-icon {
+    margin:20px 10px;
+}
+
+
+
+@media(max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}

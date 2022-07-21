@@ -1,0 +1,12 @@
+Bootstrap :
+- A front end library
+- a free and open-source CSS framework directed at responsive(adaptable layout for the device being used),
+  mobile-first front-end web development
+
+
+Z-Index:
+- More advanced CSS concept
+- The z-index property can be specified with an integer value (positive, zero, or negative),
+  which represents the position of the element along the z-axis
+
+
