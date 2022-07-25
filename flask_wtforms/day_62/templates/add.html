@@ -1,0 +1,50 @@
+{% extends 'bootstrap/base.html' %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block styles %}
+{{ super() }}
+<style>
+    body {
+background-color: #333;
+color: white;
+}
+
+a {
+    color: #ffc107;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+  color: white;
+  background-color: #333;
+}
+
+.space-above {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+</style>
+{% endblock %}
+
+{% block title %}Add A New Cafe{% endblock %}
+
+{% block content %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12 col-md-8">
+
+      <h1>Add a new cafe into the database</h1>
+
+      {{ wtf.quick_form(form, novalidate=True) }}
+
+	  <p class="space-above"><a href="#">See all cafes</a></p>
+
+    </div>
+  </div>
+</div>
+
+{% endblock %}
