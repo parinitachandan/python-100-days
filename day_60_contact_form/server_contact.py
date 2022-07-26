@@ -7,7 +7,7 @@ from werkzeug.datastructures import ImmutableMultiDict
 app = Flask(__name__)
 
 EMAIL = os.getenv("EMAIL")
-PASSWORD = "ekuaowwuijsxttre"
+PASSWORD = ""
 
 
 @app.route('/')
