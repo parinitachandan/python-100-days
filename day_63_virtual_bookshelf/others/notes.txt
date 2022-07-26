@@ -1,0 +1,8 @@
+SQL is a standard language for storing, manipulating and retrieving data in databases.
+
+CRUD IN SQL
+C - CREATE
+R - READ
+U - UPDATE
+D - DELETE
+
