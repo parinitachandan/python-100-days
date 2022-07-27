@@ -21,11 +21,11 @@ class Book(db.Model):
 
 # db.create_all()
 
-all_books = db.session.query(Book).all()
-
-
 @app.route('/')
 def home():
+    #Always read from DB/Cache when needed.
+    #No Data elements should be created statically
+    all_books = db.session.query(Book).all()
     return render_template("index.html", books=all_books)
 
 
